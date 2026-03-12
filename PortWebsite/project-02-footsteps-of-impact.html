@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Footsteps of Impact | Ray Yang</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/custom.css?v=4" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+
+			<header id="header">
+				<a href="index.html" class="logo">Ray Yang</a>
+			</header>
+
+			<nav id="nav">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="generic.html">About Me</a></li>
+					<li class="active"><a href="elements.html">Projects</a></li>
+				</ul>
+				<ul class="icons">
+					<li><a href="https://www.instagram.com/rayyang7/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="https://www.linkedin.com/in/rayyang26/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://www.youtube.com/@Rayyang26" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
+				</ul>
+			</nav>
+
+			<div id="main">
+				<section class="post">
+					<header class="major">
+						<span class="date">EP. 02 &mdash; Interactive Media Arts &nbsp;&bull;&nbsp; Aug 2022 &ndash; Jan 2023</span>
+						<h1>Footsteps of Impact</h1>
+						<p>An interactive art project connecting human movement to environmental consequence.</p>
+					</header>
+
+					<h2>Introduction</h2>
+					<p><em>Footsteps of Impact</em> is an interactive art project that aims to inspire people to rethink the impact of human activities on the natural environment. Through interactive images and installations, the project invites viewers to move within a specific space and simulate the changes in the impact of human behavior on the natural environment over time through their footsteps. By providing viewers with a unique experience, the project aims to help them gain a deeper understanding of the effects of human activities on the natural ecology under the concept of human-centered thinking. This interactive approach enables viewers to fully comprehend the impact of human activities on the natural environment and can also increase their awareness of environmental protection, thereby better protecting our planet.</p>
+
+					
+
+					<h2>Technical Architecture</h2>
+					<p>The installation uses an FSR force sensor to detect audience interaction through pressure or stepping. An ESP32 microcontroller processes this input and sends data to TouchDesigner, where real-time visuals are generated. The system also controls a DC TT motor through an L9110S driver to move physical elements in response to interaction. A projector outputs the visuals, linking body movement, mechanical response, and projected media into one interactive loop.</p>
+					<p>The system is organized around five primary components. A ceiling-mounted projector casts visuals toward a large frontal screen that serves as the main display surface. Suspended from an overhead lifting track are movable objects or panels that can be raised, lowered, or repositioned to alter the projected composition and spatial atmosphere. These hanging elements function both as sculptural components and as dynamic surfaces that can interrupt, catch, or reshape the projection.</p>
+
+					
+
+					<h2>Image Interaction (TouchDesigner)</h2>
+					<div class="table-wrapper">
+						<table>
+							<thead>
+								<tr>
+									<th>Stage</th>
+									<th>Visual State</th>
+									<th>Meaning</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>0 steps</td>
+									<td>Clear, vivid greens</td>
+									<td>The unpolluted Earth before human activity.</td>
+								</tr>
+								<tr>
+									<td>1st step</td>
+									<td>Screen distorts, turns grey and blurry</td>
+									<td>How a single person begins to damage the planet.</td>
+								</tr>
+								<tr>
+									<td>2nd step</td>
+									<td>Trash bags dropping, background shaking</td>
+									<td>Accumulating impact of continued behavior.</td>
+								</tr>
+								<tr>
+									<td>3rd step</td>
+									<td>Black &amp; white, dystopian</td>
+									<td>A degraded, desolate environment.</td>
+								</tr>
+								<tr>
+									<td>Final stage</td>
+									<td>Completely distorted, only trash remains</td>
+									<td>The worst-case environmental scenario.</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<p>At first, the screen shows a clear background with no sign of pollution&mdash;a lot of green, representing the unpolluted Earth. With each step, the environment progressively degrades until the background is completely distorted black and white, with only the trash remaining in the foreground.</p>
+
+					
+
+					<ul class="actions special">
+						<li><a href="project-01-illuminated-sounds.html" class="button">&larr; Prev: The Illuminated Sounds</a></li>
+						<li><a href="elements.html" class="button">Back to Projects</a></li>
+						<li><a href="project-03-procrastinomore.html" class="button primary">Next: ProcrastiNoMore &rarr;</a></li>
+					</ul>
+				</section>
+			</div>
+
+			<footer id="footer">
+				<section class="split contact">
+					<section class="alt">
+						<h3>Location</h3>
+						<p>New York, NY<br />NYU Student</p>
+					</section>
+					<section>
+						<h3>Email</h3>
+						<p><a href="mailto:ry2541@nyu.edu">ry2541@nyu.edu</a></p>
+					</section>
+					<section>
+						<h3>Social</h3>
+						<ul class="icons alt">
+							<li><a href="https://www.instagram.com/rayyang7/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://www.linkedin.com/in/rayyang26/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://www.youtube.com/@Rayyang26" class="icon brands alt fa-youtube"><span class="label">YouTube</span></a></li>
+						</ul>
+					</section>
+				</section>
+			</footer>
+
+			<div id="copyright">
+				<ul><li>&copy; Ray Yang</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+			</div>
+
+		</div>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,66 @@
+/* Remove background image - use solid dark color */
+#wrapper > .bg {
+	background-image: none !important;
+	background-color: #1e252d !important;
+}
+
+/* Remove white box border/background */
+.box {
+	border: none !important;
+	background: transparent !important;
+	box-shadow: none !important;
+}
+
+/* Remove white backgrounds from main content and article cards */
+#main {
+	background: transparent !important;
+	box-shadow: none !important;
+}
+
+#main > .posts > article {
+	background: transparent !important;
+	box-shadow: none !important;
+}
+
+/* Remove horizontal rule styling */
+hr {
+	display: none !important;
+}
+
+/* Remove section border-top dividers */
+#main > * {
+	border-top: none !important;
+}
+
+/* Light text for main content (now on dark background) */
+#main,
+#main p,
+#main li,
+#main span,
+#main .date {
+	color: rgba(255, 255, 255, 0.75) !important;
+}
+
+#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
+	color: #ffffff !important;
+}
+
+#main a {
+	color: #ffffff !important;
+}
+
+#main strong, #main b {
+	color: #ffffff !important;
+}
+
+#main blockquote {
+	border-left-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+#main thead {
+	border-bottom-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+#main table td, #main table th {
+	border-top-color: rgba(255, 255, 255, 0.1) !important;
+}
